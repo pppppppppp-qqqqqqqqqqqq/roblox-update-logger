@@ -14,7 +14,7 @@ def main():
 
     while True:
         if currentversion != checkversion():
-            print("roblox has updated nigga" + f"https://rdd.latte.to/?channel=LIVE&binaryType=WindowsPlayer&version={currentversion}")
+            print("roblox has updated nigga" + f"https://setup.rbxcdn.com/{currentversion}-RobloxPlayerInstaller.exe")
             currentversion = checkversion()
 
         time.sleep(60)
