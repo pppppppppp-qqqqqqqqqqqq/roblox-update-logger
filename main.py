@@ -17,7 +17,7 @@ def main()
             print("roblox has updated nigga" + f"https://rdd.latte.to/?channel=LIVE&binaryType=WindowsPlayer&version={currentversion}")
             currentversion = checkversion()
 
-    time.sleep(60)
+        time.sleep(60)
 
 if __name__ == "__main__":
     main()
